@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b80f7a47-2a74-4446-9e81-4e2ac8fcde84" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -219,7 +216,7 @@
       <workItem from="1641424183217" duration="1741000" />
       <workItem from="1641428058064" duration="1960000" />
       <workItem from="1641433969138" duration="1845000" />
-      <workItem from="1641502523194" duration="576000" />
+      <workItem from="1641502523194" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="API">
       <created>1641260249298</created>
@@ -242,11 +239,18 @@
       <option name="project" value="LOCAL" />
       <updated>1641356617014</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Code for Edit, delete, get item and show all items add it">
+      <created>1641504991484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641504991484</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14425000" />
+    <option name="totallyTimeSpent" value="14572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -297,7 +301,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="API" />
     <MESSAGE value="Add CRUD to API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add CRUD to API" />
+    <MESSAGE value="Code for Edit, delete, get item and show all items add it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code for Edit, delete, get item and show all items add it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -422,6 +427,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -429,6 +435,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

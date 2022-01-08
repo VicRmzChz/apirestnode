@@ -14,8 +14,8 @@ app.use(cors());
 // Connection DB info
 const conexio = mysql.createConnection({
     host: 'localhost',
-    user: '',
-    password: '',
+    user: 'vicente',
+    password: 'neojoker',
     database: 'articulosdb',
     port: '8889'
 });
