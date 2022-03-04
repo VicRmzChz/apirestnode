@@ -15,7 +15,7 @@ app.use(cors());
 const conexio = mysql.createConnection({
     host: 'localhost',
     user: 'vicente',
-    password: 'neojoker',
+    password: '',
     database: 'articulosdb',
     port: '8889'
 });
@@ -66,11 +66,12 @@ app.post('/api/articulos', (req, res)=>{
     };
 
     let sql = "INSERT INTO articulos SET ?";
-    conexio.query(sql, data, (err, results)=> {
+    conexio.query(sql, data, (err, result)=> {
         if (err){
             throw err;
         }else{
-            res.send(results);
+            Object.assign(data, { id: result.insertId })
+            res.send(data);
         }
     });
 });
